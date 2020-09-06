@@ -9,6 +9,8 @@ The goal of the project is to detect fraudulent behavior from the credit card tr
 ## Results
 - I use the fraud detection rate (FDR) at 3% to measure the performance of each model. This tells us the percentage of fraud records caught in the top 3% of the dataset when it is sorted by the probability score of the model.
 - For the final model with random forest, I achieve FDR at 3% of 0.57 on the test data.
-- I find a score cutoff at 8% which maximizes the overall fraud savings under the following assumptions:
+- I find a score cutoff at 5% which maximizes the overall fraud savings under the following assumptions:
   - Saving per correct fraud caught: $2000
   - Opportunity/transaction loss from a record identified as a false positive: $50
+
+![fraud_savings_graph](images/fraud_savings_implications.png)
