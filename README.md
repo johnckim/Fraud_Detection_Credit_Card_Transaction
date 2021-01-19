@@ -1,4 +1,4 @@
-# Transaction_Fraud_Detection
+# Fraud_Detection_Credit_Card_Transaction
 The goal of the project is to detect fraudulent behavior from the credit card transaction data of a government organization in 2010. The dataset contains 96,753 records with 10 fields and provides transaction details such as card number, date, merchant description, merchant zip, amount, and fraud label associated with each transaction.
 
 ## Summary
